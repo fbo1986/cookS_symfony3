@@ -1,0 +1,7 @@
+test_homepage:
+    path:     /
+    defaults: { _controller: TestBundle:Default:index }
+
+test_user:
+    path:     /user/{fName}
+    defaults: { _controller: TestBundle:Default:usr }
